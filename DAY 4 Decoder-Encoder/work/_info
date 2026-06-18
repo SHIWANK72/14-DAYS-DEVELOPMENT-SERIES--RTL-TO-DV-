@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vdecoder_3to8
+Z0 !s110 1781356387
+!i10b 1
+!s100 O1nK9hno3lUZ^H@LZBC6E1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Imz^V16D=g0`VVPHH?1f^J1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/Decoder-Encoder
+w1781351369
+8D:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v
+FD:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v
+!i122 0
+L0 1 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781356387.000000
+!s107 D:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vpriority_encoder_8to3
+R0
+!i10b 1
+!s100 EYeDS:]DPJhc5V@YjaK`:3
+R1
+I8`GifPTBL6<>7LldP;J:W2
+R2
+R3
+w1781353234
+8D:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v
+FD:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v
+!i122 1
+Z8 L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v|
+!i113 1
+R6
+R7
+vtb_decoder_3to8
+Z9 !s110 1781356388
+!i10b 1
+!s100 D3XLC9I;aFJgR^B;J0mNC0
+R1
+IjQilPn:5kCGCl_6m6hCYL3
+R2
+R3
+w1781354604
+8D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v
+FD:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v
+!i122 2
+L0 1 24
+R4
+r1
+!s85 0
+31
+Z10 !s108 1781356388.000000
+!s107 D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v|
+!i113 1
+R6
+R7
+vtb_priority_encoder_8to3
+R9
+!i10b 1
+!s100 UbL6jnVH00WkJkbd4Yn<A3
+R1
+Ikl[olmO2i=PUTH3X>nW:a0
+R2
+R3
+w1781356256
+8D:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v
+FD:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v
+!i122 3
+R8
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v|
+!i113 1
+R6
+R7

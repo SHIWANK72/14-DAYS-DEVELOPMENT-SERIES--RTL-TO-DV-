@@ -1,0 +1,37 @@
+# Compile of sipo_4bit.v was successful.
+# Compile of siso_4bit.v was successful.
+# Compile of tb_sipo.v was successful.
+# Compile of tb_up_counter.v was successful.
+# Compile of testbench_siso.v was successful.
+# Compile of up_counter_4bit.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_sipo_4bit work.tb_siso_4bit work.tb_up_counter_4bit
+# vsim -gui work.tb_sipo_4bit work.tb_siso_4bit work.tb_up_counter_4bit 
+# Start time: 20:25:17 on Jun 15,2026
+# Loading work.tb_sipo_4bit
+# Loading work.sipo_4bit
+# Loading work.tb_siso_4bit
+# Loading work.siso_4bit
+# Loading work.tb_up_counter_4bit
+# Loading work.up_counter_4bit
+add wave -position insertpoint sim:/tb_sipo_4bit/uut/*
+add wave -position insertpoint sim:/tb_siso_4bit/uut/*
+add wave -position insertpoint sim:/tb_up_counter_4bit/uut/*
+run -all
+# 🚀 SIPO Simulation Started!
+# 🚀 SISO Simulation Started!
+# 🚀 4-Bit Counter Simulation Started!
+# Time=0 | RST=1 | COUNT(Binary)=xxxx | COUNT(Dec)=x
+# Time=50000 | RST=1 | COUNT(Binary)=0000 | COUNT(Dec)=0
+# Time=125000 | RST=0 | COUNT(Binary)=0000 | COUNT(Dec)=0
+# Time=150000 | RST=0 | COUNT(Binary)=0001 | COUNT(Dec)=1
+# Time=250000 | RST=0 | COUNT(Binary)=0010 | COUNT(Dec)=2
+# Time=350000 | RST=0 | COUNT(Binary)=0011 | COUNT(Dec)=3
+# Time=450000 | RST=0 | COUNT(Binary)=0100 | COUNT(Dec)=4
+# Time=550000 | RST=0 | COUNT(Binary)=0101 | COUNT(Dec)=5
+# ** Note: $finish    : D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v(25)
+#    Time: 600 ns  Iteration: 0  Instance: /tb_sipo_4bit
+# 1
+# Break in Module tb_sipo_4bit at D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v line 25
+# End time: 21:23:28 on Jun 15,2026, Elapsed time: 0:58:11
+# Errors: 0, Warnings: 5

@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vdemux_1to4
+Z0 !s110 1781184991
+!i10b 1
+!s100 =RF=RbdAKb^Uhlm:i_M6W1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?7bnE]dJo]aGH69GaM^1Z3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/mux and demux
+w1781184849
+8D:/Model_sim/14 days development series/mux and demux/demux_1to4.v
+FD:/Model_sim/14 days development series/mux and demux/demux_1to4.v
+!i122 42
+L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781184991.000000
+!s107 D:/Model_sim/14 days development series/mux and demux/demux_1to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/mux and demux/demux_1to4.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmux_4to1
+R0
+!i10b 1
+!s100 T3DDTS3mJkBmC:YY?WK;b1
+R1
+I9o5]Z5USU7dfozh;AFHeN1
+R2
+R3
+w1781121736
+8D:/Model_sim/14 days development series/mux and demux/MUX_4to1.v
+FD:/Model_sim/14 days development series/mux and demux/MUX_4to1.v
+!i122 41
+L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/mux and demux/MUX_4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/mux and demux/MUX_4to1.v|
+!i113 1
+R6
+R7
+vtb_demux_1to4
+R0
+!i10b 1
+!s100 Wka>1h_7Yong]@?mOei5E0
+R1
+IZZZCO:KMZC@U40?PF6d_z0
+R2
+R3
+w1781183780
+8D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v
+FD:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v
+!i122 43
+L0 1 23
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v|
+!i113 1
+R6
+R7
+vtb_mux_4to1
+R0
+!i10b 1
+!s100 EPQoeeTd^nWRcX1WzQQa_0
+R1
+IDbZi74_LSkJiNL>KzI;Zf3
+R2
+R3
+w1781120203
+8D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v
+FD:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v
+!i122 40
+L0 1 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v|
+!i113 1
+R6
+R7

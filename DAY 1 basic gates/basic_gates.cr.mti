@@ -1,0 +1,15 @@
+D:/Model_sim/testbench_basic_gates.v {1 {vlog -work work -stats=none D:/Model_sim/testbench_basic_gates.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_basic_gates
+
+Top level modules:
+	tb_basic_gates
+
+} {} {}} D:/Model_sim/Project_Basic.v {1 {vlog -work work -stats=none D:/Model_sim/Project_Basic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module basic_gates
+
+Top level modules:
+	basic_gates
+
+} {} {}}

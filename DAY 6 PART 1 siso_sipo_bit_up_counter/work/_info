@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vsipo_4bit
+Z0 !s110 1781535301
+!i10b 1
+!s100 Pk?A7ZJhfRioiEzX]Y@cT1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQhcA`kI9ZSM=h[NabI:0e2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/siso_sipo_bit_up_counter
+w1781535117
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v
+!i122 0
+Z4 L0 1 19
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781535300.000000
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsiso_4bit
+R0
+!i10b 1
+!s100 g6K<k99mcnQ8h]=I4To6>2
+R1
+I7?0oC3OYi>K3NF5Fz?H=83
+R2
+R3
+w1781535041
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v
+!i122 1
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1781535301.000000
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v|
+!i113 1
+R6
+R7
+vtb_sipo_4bit
+R0
+!i10b 1
+!s100 Q`fo]dP07fN3SKH?D?Z0=3
+R1
+IkV1fN9ZWD7gVMWT[JR7Wi0
+R2
+R3
+w1781535137
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v
+!i122 2
+L0 2 26
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v|
+!i113 1
+R6
+R7
+vtb_siso_4bit
+R0
+!i10b 1
+!s100 hjH?LQDeKM`mczMTlGJbc2
+R1
+I^6J8C=:z3zAe7jl>PhWzR3
+R2
+R3
+w1781535090
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v
+!i122 4
+L0 2 29
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v|
+!i113 1
+R6
+R7
+vtb_up_counter_4bit
+R0
+!i10b 1
+!s100 JOLZ05?7_[4Sl_`LfOmke3
+R1
+Io_NM4N6DGB:joLFY46eME1
+R2
+R3
+w1781535188
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v
+!i122 3
+L0 2 31
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v|
+!i113 1
+R6
+R7
+vup_counter_4bit
+R0
+!i10b 1
+!s100 bF`OQh:NEI0M[IXFzW3Fa2
+R1
+IJ8O]`jR=WFm?ViIjL<5^n3
+R2
+R3
+w1781535161
+8D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v
+FD:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v
+!i122 5
+L0 1 15
+R5
+r1
+!s85 0
+31
+R8
+!s107 D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,21 @@
+# Compile of t_ff_async.v was successful.
+# Compile of t_ff_sync.v was successful.
+# Compile of tb_async_t-ff.v was successful.
+# Compile of tb_sync_t-ff.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_t_ff_async work.tb_t_ff_sync
+# vsim -gui work.tb_t_ff_async work.tb_t_ff_sync 
+# Start time: 20:57:55 on Jun 18,2026
+# Loading work.tb_t_ff_async
+# Loading work.t_ff_async
+# Loading work.tb_t_ff_sync
+# Loading work.t_ff_sync
+add wave -position insertpoint sim:/tb_t_ff_sync/uut/*
+add wave -position insertpoint sim:/tb_t_ff_async/uut/*
+run -all
+# ** Note: $finish    : D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v(37)
+#    Time: 107 ns  Iteration: 0  Instance: /tb_t_ff_async
+# 1
+# Break in Module tb_t_ff_async at D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v line 37
+# End time: 21:03:25 on Jun 18,2026, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 5

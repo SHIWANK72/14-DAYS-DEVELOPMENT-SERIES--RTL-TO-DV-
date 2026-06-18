@@ -1,0 +1,29 @@
+{D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux_4to1
+
+Top level modules:
+	tb_mux_4to1
+
+} {} {}} {D:/Model_sim/14 days development series/mux and demux/MUX_4to1.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/mux and demux/MUX_4to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_4to1
+
+Top level modules:
+	mux_4to1
+
+} {} {}} {D:/Model_sim/14 days development series/mux and demux/demux_1to4.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/mux and demux/demux_1to4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module demux_1to4
+
+Top level modules:
+	demux_1to4
+
+} {} {}} {D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_demux_1to4
+
+Top level modules:
+	tb_demux_1to4
+
+} {} {}}

@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vmealy_101_det
+Z0 !s110 1781616695
+!i10b 1
+!s100 AGBeg9I?MK0oo[jDh7gJ;2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]A?Pkn7X3XAXOBhnbh5R91
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/Finite state machine(FSM)
+w1781616548
+8D:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v
+FD:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v
+!i122 0
+L0 1 40
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781616695.000000
+!s107 D:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vmoore_101_det
+R0
+!i10b 1
+!s100 QiD7_dhjDRH[2R1cgQ42n3
+R1
+Im;DdgN;0?oiGh3bN:[<7F2
+R2
+R3
+w1781616522
+8D:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v
+FD:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v
+!i122 1
+L0 1 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v|
+!i113 1
+R6
+R7
+vtb_fsm_101
+R0
+!i10b 1
+!s100 fEWG9Dj1YXk`WIK;f5SX<2
+R1
+IEUn<;4@2LA3=n3]UUoHn81
+R2
+R3
+w1781616577
+8D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v
+FD:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v
+!i122 2
+L0 3 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v|
+!i113 1
+R6
+R7

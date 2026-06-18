@@ -1,0 +1,22 @@
+|traffic_light_fsm
+clk => lights[0]~reg0.CLK
+clk => lights[1]~reg0.CLK
+clk => lights[2]~reg0.CLK
+clk => timer[0].CLK
+clk => timer[1].CLK
+clk => timer[2].CLK
+clk => timer[3].CLK
+clk => state~4.DATAIN
+rst => lights[0]~reg0.ACLR
+rst => lights[1]~reg0.ACLR
+rst => lights[2]~reg0.PRESET
+rst => timer[0].ACLR
+rst => timer[1].PRESET
+rst => timer[2].ACLR
+rst => timer[3].PRESET
+rst => state~6.DATAIN
+lights[0] <= lights[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+lights[1] <= lights[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+lights[2] <= lights[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

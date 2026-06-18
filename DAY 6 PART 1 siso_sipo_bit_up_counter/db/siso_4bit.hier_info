@@ -1,0 +1,16 @@
+|sipo_4bit
+clk => shift_reg[0].CLK
+clk => shift_reg[1].CLK
+clk => shift_reg[2].CLK
+clk => shift_reg[3].CLK
+rst => shift_reg[0].ACLR
+rst => shift_reg[1].ACLR
+rst => shift_reg[2].ACLR
+rst => shift_reg[3].ACLR
+serial_in => shift_reg[0].DATAIN
+parallel_out[0] <= shift_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[1] <= shift_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[2] <= shift_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+parallel_out[3] <= shift_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

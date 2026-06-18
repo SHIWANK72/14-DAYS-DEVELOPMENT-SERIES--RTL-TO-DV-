@@ -1,0 +1,15 @@
+{D:/Model_sim/14 days development series/8_bit ALU/testbench_alu_8bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/8_bit ALU/testbench_alu_8bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_alu_8bit_smart
+
+Top level modules:
+	tb_alu_8bit_smart
+
+} {} {}} {D:/Model_sim/14 days development series/8_bit ALU/alu_8bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/8_bit ALU/alu_8bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_8bit
+
+Top level modules:
+	alu_8bit
+
+} {} {}}

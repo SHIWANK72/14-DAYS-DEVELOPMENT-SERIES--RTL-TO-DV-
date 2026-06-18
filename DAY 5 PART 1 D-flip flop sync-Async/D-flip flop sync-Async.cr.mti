@@ -1,0 +1,22 @@
+{D:/Model_sim/14 days development series/D-flip flop sync-Async/testbench d-ff.v} {1 {vlog -work work -stats=none {D:\Model_sim\14 days development series\D-flip flop sync-Async\testbench d-ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_d_flip_flop
+
+Top level modules:
+	tb_d_flip_flop
+
+} {} {}} {D:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module synchoronous_reset_d_flip_flop
+
+Top level modules:
+	synchoronous_reset_d_flip_flop
+
+} {} {}} {D:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module asynchoronous_reset_d_flip_flop
+
+Top level modules:
+	asynchoronous_reset_d_flip_flop
+
+} {} {}}

@@ -1,0 +1,35 @@
+compile -all
+# wrong # args: should be "compile w cmd ?arg ...?"
+compile Finite State Machine.mpf
+# couldn't execute "D:\Model_sim\modelsim_ase\win32aloem\State": no such file or directory
+# Compile of mealy_101_det.v was successful.
+# Compile of moore_101_det.v was successful.
+# Compile of tb_fsm_101.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_fsm_101
+# vsim -gui work.tb_fsm_101 
+# Start time: 19:01:45 on Jun 16,2026
+# Loading work.tb_fsm_101
+# Loading work.moore_101_det
+# Loading work.mealy_101_det
+add wave -position insertpoint sim:/tb_fsm_101/u_moore/*
+add wave -position insertpoint sim:/tb_fsm_101/u_mealy/*
+run -all
+# 🚀 Day 7: FSM Verification Started!
+# Time=0 | RST=1 | IN=0 || MOORE_OUT=0 | MEALY_OUT=0
+# Time=100000 | RST=0 | IN=1 || MOORE_OUT=0 | MEALY_OUT=0
+# Time=200000 | RST=0 | IN=0 || MOORE_OUT=0 | MEALY_OUT=0
+# Time=300000 | RST=0 | IN=1 || MOORE_OUT=0 | MEALY_OUT=1
+# Time=350000 | RST=0 | IN=1 || MOORE_OUT=1 | MEALY_OUT=0
+# Time=400000 | RST=0 | IN=0 || MOORE_OUT=1 | MEALY_OUT=0
+# Time=450000 | RST=0 | IN=0 || MOORE_OUT=0 | MEALY_OUT=0
+# Time=500000 | RST=0 | IN=1 || MOORE_OUT=0 | MEALY_OUT=1
+# Time=550000 | RST=0 | IN=1 || MOORE_OUT=1 | MEALY_OUT=0
+# Time=600000 | RST=0 | IN=0 || MOORE_OUT=1 | MEALY_OUT=0
+# Time=650000 | RST=0 | IN=0 || MOORE_OUT=0 | MEALY_OUT=0
+# ** Note: $finish    : D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v(32)
+#    Time: 800 ns  Iteration: 0  Instance: /tb_fsm_101
+# 1
+# Break in Module tb_fsm_101 at D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v line 32
+# End time: 19:57:36 on Jun 16,2026, Elapsed time: 0:55:51
+# Errors: 0, Warnings: 5

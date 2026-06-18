@@ -1,0 +1,92 @@
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v was successful.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_demux_1to4 work.tb_mux_4to1
+# vsim -gui work.tb_demux_1to4 work.tb_mux_4to1 
+# Start time: 18:47:45 on Jun 11,2026
+# Loading work.tb_demux_1to4
+# Loading work.demux_1to4
+# Loading work.tb_mux_4to1
+# Loading work.mux_4to1
+add wave -position insertpoint sim:/tb_demux_1to4/uut/*
+add wave -position insertpoint sim:/tb_mux_4to1/uut/*
+run 50
+run 500
+# ** Note: $finish    : D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v(17)
+#    Time: 400 ps  Iteration: 0  Instance: /tb_mux_4to1
+# 1
+# Break in Module tb_mux_4to1 at D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v line 17
+run 400
+# ** Note: $finish    : D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v(20)
+#    Time: 450 ps  Iteration: 0  Instance: /tb_demux_1to4
+# 1
+# Break in Module tb_demux_1to4 at D:/Model_sim/14 days development series/mux and demux/testbench demux_1to4.v line 20
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v failed with 2 errors.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v was successful.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of demux_1to4.v was successful.
+# Compile of demux_1to4.v was successful.
+# Load canceled
+quit -sim
+# End time: 19:06:22 on Jun 11,2026, Elapsed time: 0:18:37
+# Errors: 0, Warnings: 13
+# Compile of testbench mux_4to1.v was successful.
+# Compile of MUX_4to1.v was successful.
+# Compile of demux_1to4.v was successful.
+# Compile of testbench demux_1to4.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_demux_1to4 work.tb_mux_4to1
+# vsim -gui work.tb_demux_1to4 work.tb_mux_4to1 
+# Start time: 19:06:44 on Jun 11,2026
+# Loading work.tb_demux_1to4
+# Loading work.demux_1to4
+# Loading work.tb_mux_4to1
+# Loading work.mux_4to1
+add wave -position insertpoint sim:/tb_demux_1to4/uut/*
+add wave -position insertpoint sim:/tb_mux_4to1/uut/*
+run 500
+# ** Note: $finish    : D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v(17)
+#    Time: 400 ps  Iteration: 0  Instance: /tb_mux_4to1
+# 1
+# Break in Module tb_mux_4to1 at D:/Model_sim/14 days development series/mux and demux/testbench mux_4to1.v line 17
+# End time: 19:33:45 on Jun 11,2026, Elapsed time: 0:27:01
+# Errors: 0, Warnings: 2

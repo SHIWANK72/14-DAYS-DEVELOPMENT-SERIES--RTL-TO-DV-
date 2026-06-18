@@ -1,0 +1,7 @@
+|t_ff_async
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+t => q~reg0.ENA
+q << q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

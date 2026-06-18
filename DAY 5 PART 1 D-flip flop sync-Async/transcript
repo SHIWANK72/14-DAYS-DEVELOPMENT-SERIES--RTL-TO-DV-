@@ -1,0 +1,64 @@
+# Compile of Async D- FF.v was successful.
+# Compile of Sync D- FF.v was successful.
+# Compile of testbench d-ff.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_d_flip_flop
+# vsim -gui work.tb_d_flip_flop 
+# Start time: 18:30:39 on Jun 14,2026
+# Loading work.tb_d_flip_flop
+# Loading work.synchoronous_reset_d_flip_flop
+# Loading work.asynchoronous_reset_d_flip_flop
+add wave -position insertpoint sim:/tb_d_flip_flop/uut/*
+add wave -position insertpoint sim:/tb_d_flip_flop/dut/*
+run 900
+# Simulation Started for D-Flip Flops!
+# Current Time is 0, Data is x
+# Time=0 | RST=0 | D=0 | Async_Q=x | Sync_Q=x
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+restart -f
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Simulation Started for D-Flip Flops!
+# Current Time is 0, Data is x
+# Time=0 | RST=0 | D=0 | Async_Q=x | Sync_Q=x
+# Time=50000 | RST=0 | D=0 | Async_Q=0 | Sync_Q=0
+# Time=100000 | RST=1 | D=0 | Async_Q=0 | Sync_Q=0
+# Time=250000 | RST=0 | D=1 | Async_Q=1 | Sync_Q=1
+# Time=450000 | RST=1 | D=1 | Async_Q=0 | Sync_Q=0
+# ** Note: $finish    : D:/Model_sim/14 days development series/D-flip flop sync-Async/testbench d-ff.v(28)
+#    Time: 850 ns  Iteration: 0  Instance: /tb_d_flip_flop
+# 1
+# Break in Module tb_d_flip_flop at D:/Model_sim/14 days development series/D-flip flop sync-Async/testbench d-ff.v line 28
+# Compile of Async D- FF.v was successful.
+# Compile of Sync D- FF.v was successful.
+# Compile of testbench d-ff.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_d_flip_flop
+# End time: 18:51:20 on Jun 14,2026, Elapsed time: 0:20:41
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_d_flip_flop 
+# Start time: 18:51:20 on Jun 14,2026
+# Loading work.tb_d_flip_flop
+# Loading work.synchoronous_reset_d_flip_flop
+# Loading work.asynchoronous_reset_d_flip_flop
+add wave -position insertpoint sim:/tb_d_flip_flop/uut/*
+add wave -position insertpoint sim:/tb_d_flip_flop/dut/*
+run -all
+# Simulation Started for D-Flip Flops!
+# Current Time is 0, Data is x
+# Time=0 | RST=0 | D=0 | Async_Q=x | Sync_Q=x
+# Time=50000 | RST=0 | D=0 | Async_Q=0 | Sync_Q=0
+# Time=100000 | RST=1 | D=0 | Async_Q=0 | Sync_Q=0
+# Time=275000 | RST=0 | D=1 | Async_Q=0 | Sync_Q=0
+# Time=350000 | RST=0 | D=1 | Async_Q=1 | Sync_Q=1
+# Time=500000 | RST=1 | D=1 | Async_Q=0 | Sync_Q=1
+# Time=550000 | RST=1 | D=1 | Async_Q=0 | Sync_Q=0
+# ** Note: $finish    : D:/Model_sim/14 days development series/D-flip flop sync-Async/testbench d-ff.v(28)
+#    Time: 900 ns  Iteration: 0  Instance: /tb_d_flip_flop
+# 1
+# Break in Module tb_d_flip_flop at D:/Model_sim/14 days development series/D-flip flop sync-Async/testbench d-ff.v line 28
+# End time: 19:26:01 on Jun 14,2026, Elapsed time: 0:34:41
+# Errors: 0, Warnings: 1

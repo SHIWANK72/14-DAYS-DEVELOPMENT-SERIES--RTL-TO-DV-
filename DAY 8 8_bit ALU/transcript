@@ -1,0 +1,17 @@
+# Compile of alu_8bit.v was successful.
+# Compile of testbench_alu_8bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu_8bit_smart
+# vsim -gui work.tb_alu_8bit_smart 
+# Start time: 19:17:47 on Jun 17,2026
+# Loading work.tb_alu_8bit_smart
+# Loading work.alu_8bit
+add wave -position insertpoint sim:/tb_alu_8bit_smart/uut/*
+add wave -position insertpoint sim:/tb_alu_8bit_smart/run_alu_sequence/*
+run -all
+# ** Note: $finish    : D:/Model_sim/14 days development series/8_bit ALU/testbench_alu_8bit.v(38)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb_alu_8bit_smart
+# 1
+# Break in Module tb_alu_8bit_smart at D:/Model_sim/14 days development series/8_bit ALU/testbench_alu_8bit.v line 38
+# End time: 20:15:10 on Jun 17,2026, Elapsed time: 0:57:23
+# Errors: 0, Warnings: 5

@@ -1,0 +1,21 @@
+# Compile of decoder_3to8.v was successful.
+# Compile of priority_encoder_8to3.v was successful.
+# Compile of testbench_decoder_3to8.v was successful.
+# Compile of testbench_priority_encoder_8to3.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_decoder_3to8 work.tb_priority_encoder_8to3
+# vsim -gui work.tb_decoder_3to8 work.tb_priority_encoder_8to3 
+# Start time: 18:43:22 on Jun 13,2026
+# Loading work.tb_decoder_3to8
+# Loading work.decoder_3to8
+# Loading work.tb_priority_encoder_8to3
+# Loading work.priority_encoder_8to3
+add wave -position insertpoint sim:/tb_decoder_3to8/uut/*
+add wave -position insertpoint sim:/tb_priority_encoder_8to3/uut/*
+run 500
+# ** Note: $finish    : D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v(22)
+#    Time: 500 ps  Iteration: 0  Instance: /tb_decoder_3to8
+# 1
+# Break in Module tb_decoder_3to8 at D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v line 22
+# End time: 19:36:21 on Jun 13,2026, Elapsed time: 0:52:59
+# Errors: 0, Warnings: 5

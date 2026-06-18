@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vt_ff_async
+Z0 !s110 1781796462
+!i10b 1
+!s100 ]F28HnjE_99;o>156[5@11
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN^m;7<J>``DCk;?>AM6gz1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/T-flip flop sync - Async
+w1781791929
+8D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v
+FD:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v
+!i122 0
+L0 1 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781796462.000000
+!s107 D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vt_ff_sync
+R0
+!i10b 1
+!s100 ?MJ?Y[`mYk?D3hEzH^:;K0
+R1
+IVV27c_XWGPKlmlmeU@:i_2
+R2
+R3
+w1781791984
+8D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v
+FD:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v
+!i122 1
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v|
+!i113 1
+R6
+R7
+vtb_t_ff_async
+R0
+!i10b 1
+!s100 Z5UVe`[jj9So7@hMkVP@@0
+R1
+Ib<O3^c<GoYe;`5`l?YDW`1
+R2
+R3
+w1781796317
+8D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v
+FD:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v
+!i122 2
+Z8 L0 3 37
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v|
+!i113 1
+R6
+R7
+vtb_t_ff_sync
+!s110 1781796463
+!i10b 1
+!s100 1zNe5ATF0TKK[VkTZ;]AL2
+R1
+I8giBWzOD6jEDm>OY7>XPK0
+R2
+R3
+w1781796356
+8D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v
+FD:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v
+!i122 3
+R8
+R4
+r1
+!s85 0
+31
+!s108 1781796463.000000
+!s107 D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v|
+!i113 1
+R6
+R7

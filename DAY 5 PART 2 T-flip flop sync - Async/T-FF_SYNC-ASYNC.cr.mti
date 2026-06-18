@@ -1,0 +1,29 @@
+{D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_async.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module t_ff_async
+
+Top level modules:
+	t_ff_async
+
+} {} {}} {D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_sync_t-ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_t_ff_sync
+
+Top level modules:
+	tb_t_ff_sync
+
+} {} {}} {D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/T-flip flop sync - Async/tb_async_t-ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_t_ff_async
+
+Top level modules:
+	tb_t_ff_async
+
+} {} {}} {D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/T-flip flop sync - Async/t_ff_sync.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module t_ff_sync
+
+Top level modules:
+	t_ff_sync
+
+} {} {}}

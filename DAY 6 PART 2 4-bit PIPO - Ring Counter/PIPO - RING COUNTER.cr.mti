@@ -1,0 +1,29 @@
+{D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/tb_pipo_4bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/tb_pipo_4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_pipo_4bit
+
+Top level modules:
+	tb_pipo_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/ring_counter.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ring_counter
+
+Top level modules:
+	ring_counter
+
+} {} {}} {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/tb_ring_counter.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/tb_ring_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ring_counter
+
+Top level modules:
+	tb_ring_counter
+
+} {} {}} {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/pipo_4bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/4-bit PIPO & Ring Counter/pipo_4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pipo_4bit
+
+Top level modules:
+	pipo_4bit
+
+} {} {}}

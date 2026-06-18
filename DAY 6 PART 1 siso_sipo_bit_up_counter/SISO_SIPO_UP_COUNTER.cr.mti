@@ -1,0 +1,43 @@
+{D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_sipo.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sipo_4bit
+
+Top level modules:
+	tb_sipo_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/siso_4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module siso_4bit
+
+Top level modules:
+	siso_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/testbench_siso.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_siso_4bit
+
+Top level modules:
+	tb_siso_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/tb_up_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_up_counter_4bit
+
+Top level modules:
+	tb_up_counter_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/sipo_4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo_4bit
+
+Top level modules:
+	sipo_4bit
+
+} {} {}} {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/siso_sipo_bit_up_counter/up_counter_4bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_counter_4bit
+
+Top level modules:
+	up_counter_4bit
+
+} {} {}}

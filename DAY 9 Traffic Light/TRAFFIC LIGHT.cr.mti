@@ -1,0 +1,15 @@
+{D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_traffic_light
+
+Top level modules:
+	tb_traffic_light
+
+} {} {}} {D:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module traffic_light_fsm
+
+Top level modules:
+	traffic_light_fsm
+
+} {} {}}

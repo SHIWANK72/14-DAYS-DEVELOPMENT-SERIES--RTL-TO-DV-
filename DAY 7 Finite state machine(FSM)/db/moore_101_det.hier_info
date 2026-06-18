@@ -1,0 +1,10 @@
+|mealy_101_det
+clk => current_state~1.DATAIN
+rst => current_state~3.DATAIN
+in_bit => out_bit.DATAB
+in_bit => current_state.S1.DATAIN
+in_bit => next_state.S2.DATAB
+in_bit => Selector0.IN1
+out_bit <= out_bit.DB_MAX_OUTPUT_PORT_TYPE
+
+

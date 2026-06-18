@@ -1,0 +1,29 @@
+{D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Decoder-Encoder/testbench_decoder_3to8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_decoder_3to8
+
+Top level modules:
+	tb_decoder_3to8
+
+} {} {}} {D:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Decoder-Encoder/priority_encoder_8to3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module priority_encoder_8to3
+
+Top level modules:
+	priority_encoder_8to3
+
+} {} {}} {D:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Decoder-Encoder/decoder_3to8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_3to8
+
+Top level modules:
+	decoder_3to8
+
+} {} {}} {D:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Decoder-Encoder/testbench_priority_encoder_8to3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_priority_encoder_8to3
+
+Top level modules:
+	tb_priority_encoder_8to3
+
+} {} {}}

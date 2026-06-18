@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vfull_adder
+Z0 !s110 1781267729
+!i10b 1
+!s100 6I_mSkOXA]QJK6fdigEAz1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcziRjKI70kC[g^13SM9;T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/Adder-implementation
+w1781264822
+8D:/Model_sim/14 days development series/Adder-implementation/full_adder.v
+FD:/Model_sim/14 days development series/Adder-implementation/full_adder.v
+!i122 1
+L0 1 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781267729.000000
+!s107 D:/Model_sim/14 days development series/Adder-implementation/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Adder-implementation/full_adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vhalf_adder
+R0
+!i10b 1
+!s100 WTKdd;i>caK_<316YDZQ:0
+R1
+IQPzH27ICaR=zSJBFgh=_C2
+R2
+R3
+w1781264879
+8D:/Model_sim/14 days development series/Adder-implementation/half_adder.v
+FD:/Model_sim/14 days development series/Adder-implementation/half_adder.v
+!i122 2
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Adder-implementation/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Adder-implementation/half_adder.v|
+!i113 1
+R6
+R7
+vripple_carry_adder_4bit
+R0
+!i10b 1
+!s100 hgYJ55RQJIN93lh[I]Gbm1
+R1
+I3k4nkf12Aa>]lJVPLC82l2
+R2
+R3
+w1781265783
+8D:/Model_sim/14 days development series/Adder-implementation/ripple_carry_adder.v
+FD:/Model_sim/14 days development series/Adder-implementation/ripple_carry_adder.v
+!i122 0
+L0 1 48
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Adder-implementation/ripple_carry_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Adder-implementation/ripple_carry_adder.v|
+!i113 1
+R6
+R7
+vtb_ripple_carry_adder
+R0
+!i10b 1
+!s100 I50WOIj`@`nYj[b3?j2L30
+R1
+I5cboH5H;[MgTHF6`0;FWU3
+R2
+R3
+w1781267489
+8D:/Model_sim/14 days development series/Adder-implementation/testbench rca.v
+FD:/Model_sim/14 days development series/Adder-implementation/testbench rca.v
+!i122 3
+L0 1 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Adder-implementation/testbench rca.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Adder-implementation/testbench rca.v|
+!i113 1
+R6
+R7

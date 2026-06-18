@@ -1,0 +1,22 @@
+{D:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Finite state machine(FSM)/mealy_101_det.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mealy_101_det
+
+Top level modules:
+	mealy_101_det
+
+} {} {}} {D:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Finite state machine(FSM)/moore_101_det.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module moore_101_det
+
+Top level modules:
+	moore_101_det
+
+} {} {}} {D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v} {1 {vlog -work work -stats=none {D:/Model_sim/14 days development series/Finite state machine(FSM)/tb_fsm_101.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fsm_101
+
+Top level modules:
+	tb_fsm_101
+
+} {} {}}

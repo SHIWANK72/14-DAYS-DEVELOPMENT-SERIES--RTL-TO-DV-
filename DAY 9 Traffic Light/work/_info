@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim/14 days development series/4-bit PIPO & Ring Counter
+vtb_traffic_light
+Z0 !s110 1781797666
+!i10b 1
+!s100 R7chKK6=RKSL^cIW2FX6J3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In7h_JJKVHDm1VdGNjniG:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/Traffic Light
+w1781795914
+8D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v
+FD:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v
+!i122 0
+L0 3 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781797666.000000
+!s107 D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vtraffic_light_fsm
+R0
+!i10b 1
+!s100 I6i9FeNTomWofiA7^i:=F2
+R1
+I`JcoDdHjgif<4GiF;9H^A0
+R2
+R3
+w1781795882
+8D:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v
+FD:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v
+!i122 1
+L0 3 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/Traffic Light/traffic light fsm.v|
+!i113 1
+R6
+R7

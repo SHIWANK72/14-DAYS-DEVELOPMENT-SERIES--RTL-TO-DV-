@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vasynchoronous_reset_d_flip_flop
+Z0 !s110 1781443268
+!i10b 1
+!s100 AM=0C[[WgL1j5kB8UaTJA2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^HHlme[LozUON@E@WLa0a2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/D-flip flop sync-Async
+w1781439317
+8D:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v
+FD:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v
+!i122 3
+Z4 L0 1 15
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1781443268.000000
+!s107 D:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/D-flip flop sync-Async/Async D- FF.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vsynchoronous_reset_d_flip_flop
+R0
+!i10b 1
+!s100 =5@A8;^E4V?04_^:67gU31
+R1
+IV<[k_4M]UNKK?CeYUaSZW2
+R2
+R3
+w1781440534
+8D:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v
+FD:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v
+!i122 4
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/D-flip flop sync-Async/Sync D- FF.v|
+!i113 1
+R7
+R8
+vtb_d_flip_flop
+R0
+!i10b 1
+!s100 Z0F:m:>;IdKWD1W2=8Q]^3
+R1
+IjGWc9I0M5m9T5TU]INAAb1
+R2
+R3
+w1781443258
+8D:\Model_sim\14 days development series\D-flip flop sync-Async\testbench d-ff.v
+FD:\Model_sim\14 days development series\D-flip flop sync-Async\testbench d-ff.v
+!i122 5
+L0 2 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:\Model_sim\14 days development series\D-flip flop sync-Async\testbench d-ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Model_sim\14 days development series\D-flip flop sync-Async\testbench d-ff.v|
+!i113 1
+R7
+R8

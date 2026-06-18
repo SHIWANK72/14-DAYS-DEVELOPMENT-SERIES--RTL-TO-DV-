@@ -1,0 +1,16 @@
+# Compile of tb_traffic_light.v was successful.
+# Compile of traffic light fsm.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_traffic_light
+# vsim -gui work.tb_traffic_light 
+# Start time: 21:17:56 on Jun 18,2026
+# Loading work.tb_traffic_light
+# Loading work.traffic_light_fsm
+add wave -position insertpoint sim:/tb_traffic_light/uut/*
+run -all
+# ** Note: $finish    : D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v(17)
+#    Time: 415 ns  Iteration: 0  Instance: /tb_traffic_light
+# 1
+# Break in Module tb_traffic_light at D:/Model_sim/14 days development series/Traffic Light/tb_traffic_light.v line 17
+# End time: 21:23:06 on Jun 18,2026, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 6
