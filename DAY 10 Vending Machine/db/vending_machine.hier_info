@@ -1,0 +1,13 @@
+|vending_machine
+clk => current_state~1.DATAIN
+rst => current_state~3.DATAIN
+coin[0] => Equal0.IN0
+coin[0] => Equal1.IN1
+coin[1] => Equal0.IN1
+coin[1] => Equal1.IN0
+dispense <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+change[0] <= change[0].DB_MAX_OUTPUT_PORT_TYPE
+change[1] <= <GND>
+change[2] <= change[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

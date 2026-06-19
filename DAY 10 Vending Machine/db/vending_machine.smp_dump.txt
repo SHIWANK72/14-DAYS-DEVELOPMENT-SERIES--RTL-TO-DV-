@@ -1,0 +1,8 @@
+
+State Machine - |vending_machine|current_state
+Name current_state.S_15 current_state.S_10 current_state.S_5 current_state.S_0 current_state.S_20 
+current_state.S_0 0 0 0 0 0 
+current_state.S_5 0 0 1 1 0 
+current_state.S_10 0 1 0 1 0 
+current_state.S_15 1 0 0 1 0 
+current_state.S_20 0 0 0 1 1 

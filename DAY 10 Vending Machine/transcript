@@ -1,0 +1,38 @@
+# Compile of tb_vending_machine.v was successful.
+# Compile of vending_machine.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_vending_machine
+# vsim -gui work.tb_vending_machine 
+# Start time: 19:03:41 on Jun 19,2026
+# Loading work.tb_vending_machine
+# Loading work.vending_machine
+add wave -position insertpoint sim:/tb_vending_machine/uut/*
+run -all
+# Time=0 | Coin_In=00 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Testing Case 1: Inserting 5, 5, 5...
+# Time=25000 | Coin_In=01 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Time=35000 | Coin_In=01 | FSM_State=1 | Dispense=0 | Return_Change=0
+# Time=45000 | Coin_In=01 | FSM_State=2 | Dispense=0 | Return_Change=0
+# Time=55000 | Coin_In=00 | FSM_State=3 | Dispense=1 | Return_Change=0
+# Time=65000 | Coin_In=00 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Testing Case 2: Inserting 10, 5...
+# Time=85000 | Coin_In=10 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Time=95000 | Coin_In=01 | FSM_State=2 | Dispense=0 | Return_Change=0
+# Time=105000 | Coin_In=00 | FSM_State=3 | Dispense=1 | Return_Change=0
+# Time=115000 | Coin_In=00 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Testing Case 3: Inserting 10, 10 (Overflow test)...
+# Time=135000 | Coin_In=10 | FSM_State=0 | Dispense=0 | Return_Change=0
+# Time=145000 | Coin_In=10 | FSM_State=2 | Dispense=0 | Return_Change=0
+# Time=155000 | Coin_In=00 | FSM_State=4 | Dispense=1 | Return_Change=5
+# Time=165000 | Coin_In=00 | FSM_State=0 | Dispense=0 | Return_Change=0
+# ** Note: $finish    : D:/Model_sim/14 days development series/DAY 10 Vending Machine/tb_vending_machine.v(56)
+#    Time: 185 ns  Iteration: 0  Instance: /tb_vending_machine
+# 1
+# Break in Module tb_vending_machine at D:/Model_sim/14 days development series/DAY 10 Vending Machine/tb_vending_machine.v line 56
+run -all
+# Break in Module tb_vending_machine at D:/Model_sim/14 days development series/DAY 10 Vending Machine/tb_vending_machine.v line 57
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 19:15:41 on Jun 19,2026, Elapsed time: 0:12:00
+# Errors: 0, Warnings: 6
