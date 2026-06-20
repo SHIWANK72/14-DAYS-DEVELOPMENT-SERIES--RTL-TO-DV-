@@ -1,0 +1,11 @@
+I/O Assignment Analysis Status : Successful - Sat Jun 20 18:30:30 2026
+Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Revision Name : sync_fifo
+Top-level Entity Name : sync_fifo
+Family : Cyclone V
+Device : 5CGXFC7C7F23C8
+Timing Models : Final
+Total pins : 22 / 268 ( 8 % )
+Total virtual pins : 0
+Total PLLs : 0 / 13 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

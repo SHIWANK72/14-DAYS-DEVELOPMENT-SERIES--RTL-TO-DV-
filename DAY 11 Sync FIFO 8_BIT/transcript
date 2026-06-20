@@ -1,0 +1,44 @@
+# Compile of sync_fifo.v was successful.
+# Compile of tb_sync_fifo_8_bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.sync_fifo_tb
+# vsim -gui work.sync_fifo_tb 
+# Start time: 18:41:38 on Jun 20,2026
+# Loading work.sync_fifo_tb
+# Loading work.sync_fifo
+add wave -position insertpoint sim:/sync_fifo_tb/uut/*
+mem save -o *.mem -f {} /sync_fifo_tb/uut/fifo_mem
+# ** UI-Msg: (vsim-7) Failed to open mem file "*.mem" in write mode.
+# Invalid argument. (errno = EINVAL)
+run 300ns
+# Time=0 | rst=1 | wr_en=0 | rd_en=0 | data_in=00 | data_out=xx | wr_ptr= x | rd_ptr= x | full=x | empty=x
+# Time=5000 | rst=1 | wr_en=0 | rd_en=0 | data_in=00 | data_out=00 | wr_ptr= 0 | rd_ptr= 0 | full=0 | empty=1
+# --- Starting Write Operation ---
+# Time=15000 | rst=0 | wr_en=1 | rd_en=0 | data_in=24 | data_out=00 | wr_ptr= 0 | rd_ptr= 0 | full=0 | empty=1
+# Time=25000 | rst=0 | wr_en=1 | rd_en=0 | data_in=81 | data_out=00 | wr_ptr= 1 | rd_ptr= 0 | full=0 | empty=0
+# Time=35000 | rst=0 | wr_en=1 | rd_en=0 | data_in=09 | data_out=00 | wr_ptr= 2 | rd_ptr= 0 | full=0 | empty=0
+# Time=45000 | rst=0 | wr_en=1 | rd_en=0 | data_in=63 | data_out=00 | wr_ptr= 3 | rd_ptr= 0 | full=0 | empty=0
+# Time=55000 | rst=0 | wr_en=1 | rd_en=0 | data_in=0d | data_out=00 | wr_ptr= 4 | rd_ptr= 0 | full=0 | empty=0
+# Time=65000 | rst=0 | wr_en=1 | rd_en=0 | data_in=8d | data_out=00 | wr_ptr= 5 | rd_ptr= 0 | full=0 | empty=0
+# Time=75000 | rst=0 | wr_en=1 | rd_en=0 | data_in=65 | data_out=00 | wr_ptr= 6 | rd_ptr= 0 | full=0 | empty=0
+# Time=85000 | rst=0 | wr_en=1 | rd_en=0 | data_in=12 | data_out=00 | wr_ptr= 7 | rd_ptr= 0 | full=0 | empty=0
+# Time=95000 | rst=0 | wr_en=1 | rd_en=0 | data_in=ff | data_out=00 | wr_ptr= 8 | rd_ptr= 0 | full=1 | empty=0
+# Time=105000 | rst=0 | wr_en=0 | rd_en=0 | data_in=ff | data_out=00 | wr_ptr= 8 | rd_ptr= 0 | full=1 | empty=0
+# --- Starting Read Operation ---
+# Time=125000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=00 | wr_ptr= 8 | rd_ptr= 0 | full=1 | empty=0
+# Time=135000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=24 | wr_ptr= 8 | rd_ptr= 1 | full=0 | empty=0
+# Time=145000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=81 | wr_ptr= 8 | rd_ptr= 2 | full=0 | empty=0
+# Time=155000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=09 | wr_ptr= 8 | rd_ptr= 3 | full=0 | empty=0
+# Time=165000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=63 | wr_ptr= 8 | rd_ptr= 4 | full=0 | empty=0
+# Time=175000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=0d | wr_ptr= 8 | rd_ptr= 5 | full=0 | empty=0
+# Time=185000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=8d | wr_ptr= 8 | rd_ptr= 6 | full=0 | empty=0
+# Time=195000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=65 | wr_ptr= 8 | rd_ptr= 7 | full=0 | empty=0
+# Time=205000 | rst=0 | wr_en=0 | rd_en=1 | data_in=ff | data_out=12 | wr_ptr= 8 | rd_ptr= 8 | full=0 | empty=1
+# Time=215000 | rst=0 | wr_en=0 | rd_en=0 | data_in=ff | data_out=12 | wr_ptr= 8 | rd_ptr= 8 | full=0 | empty=1
+# --- Simultaneous Read/Write ---
+# Time=235000 | rst=0 | wr_en=1 | rd_en=1 | data_in=aa | data_out=12 | wr_ptr= 8 | rd_ptr= 8 | full=0 | empty=1
+# Time=245000 | rst=0 | wr_en=0 | rd_en=0 | data_in=aa | data_out=12 | wr_ptr= 9 | rd_ptr= 8 | full=0 | empty=0
+# ** Note: $finish    : D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v(80)
+#    Time: 275 ns  Iteration: 0  Instance: /sync_fifo_tb
+# 1
+# Break in Module sync_fifo_tb at D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v line 80

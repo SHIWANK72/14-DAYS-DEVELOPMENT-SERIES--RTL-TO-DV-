@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Model_sim
+vsync_fifo
+Z0 !s110 1781961090
+!i10b 1
+!s100 4`ff9R`gWSHJRL5:D=[=g1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITP;Jej0:l`Q2QFXU:?b842
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT
+w1781959621
+8D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/sync_fifo.v
+FD:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/sync_fifo.v
+!i122 2
+L0 1 47
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781961090.000000
+!s107 D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/sync_fifo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/sync_fifo.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsync_fifo_tb
+R0
+!i10b 1
+!s100 FKGS71I@V:=WBWUTO_;oB1
+R1
+IDBY4EY;]Eg4FJBW@f7Lk01
+R2
+R3
+w1781959666
+8D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v
+FD:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v
+!i122 3
+L0 3 87
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v|
+!i113 1
+R6
+R7
