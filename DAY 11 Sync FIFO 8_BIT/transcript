@@ -42,3 +42,5 @@ run 300ns
 #    Time: 275 ns  Iteration: 0  Instance: /sync_fifo_tb
 # 1
 # Break in Module sync_fifo_tb at D:/Model_sim/14 days development series/DAY 11 Sync FIFO 8_BIT/tb_sync_fifo_8_bit.v line 80
+# End time: 19:00:26 on Jun 20,2026, Elapsed time: 0:18:48
+# Errors: 0, Warnings: 2
