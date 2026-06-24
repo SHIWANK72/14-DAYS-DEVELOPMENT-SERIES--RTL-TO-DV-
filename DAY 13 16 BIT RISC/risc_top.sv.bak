@@ -1,0 +1,94 @@
+import risc_pkg::*;
+
+module risc_top (
+    input logic clk,
+    input logic rst_n
+);
+
+    // PC Logic
+    logic [15:0] pc;
+    logic [15:0] next_pc;
+
+    // Memory (Internal for single-cycle simplicity)
+    logic [15:0] imem [0:63];
+    logic [15:0] dmem [0:63];
+
+    // Instruction Decode Wires
+    logic [15:0] instr;
+    opcode_t     opcode;
+    logic [3:0]  rd, rs1, rs2;
+    logic [7:0]  imm8;
+    logic [15:0] imm16;
+
+    // Control Signals
+    logic reg_we, mem_we, mem_re, alu_src_imm, wb_sel_mem, is_jmp, is_beq;
+
+    // Datapath Wires
+    logic [15:0] rdata1, rdata2, alu_in_b, alu_result, wb_data, mem_rdata;
+    logic zero_flag;
+
+    // --------------------------------------------------------
+    // Fetch Stage
+    // --------------------------------------------------------
+    assign instr  = imem[pc[5:0]];
+    assign opcode = opcode_t'(instr[15:12]);
+    assign rd     = instr[11:8];
+    assign rs1    = instr[7:4];
+    assign rs2    = instr[3:0];
+    assign imm8   = instr[7:0];   // For LDI/JMP
+    assign imm16  = {8'h00, imm8}; // Zero extended
+
+    // --------------------------------------------------------
+    // Decode & Control Unit
+    // --------------------------------------------------------
+    control_unit cu (.*);
+
+    reg_file rf (
+        .clk(clk), .rst_n(rst_n), .we(reg_we), 
+        .rs1(rs1), .rs2(rs2), .rd(rd), 
+        .wdata(wb_data), .rdata1(rdata1), .rdata2(rdata2)
+    );
+
+    // --------------------------------------------------------
+    // Execute Stage (ALU)
+    // --------------------------------------------------------
+    assign alu_in_b = alu_src_imm ? imm16 : rdata2;
+
+    alu alu_inst (
+        .alu_ctrl(opcode), .a(rdata1), .b(alu_in_b), 
+        .result(alu_result), .zero_flag(zero_flag)
+    );
+
+    // --------------------------------------------------------
+    // Memory Access Stage
+    // --------------------------------------------------------
+    always_ff @(posedge clk) begin
+        if (mem_we) dmem[alu_result[5:0]] <= rdata2;
+    end
+    assign mem_rdata = mem_re ? dmem[alu_result[5:0]] : 16'h0000;
+
+    // --------------------------------------------------------
+    // Write-Back Stage
+    // --------------------------------------------------------
+    assign wb_data = wb_sel_mem ? mem_rdata : alu_result;
+
+    // --------------------------------------------------------
+    // Program Counter Update Logic
+    // --------------------------------------------------------
+    always_comb begin
+        if (is_jmp) 
+            next_pc = imm16;
+        else if (is_beq && zero_flag) 
+            next_pc = pc + imm16;
+        else if (opcode == HALT)
+            next_pc = pc; // Freeze PC
+        else 
+            next_pc = pc + 1;
+    end
+
+    always_ff @(posedge clk or negedge rst_n) begin
+        if (!rst_n) pc <= 16'h0000;
+        else        pc <= next_pc;
+    end
+
+endmodule

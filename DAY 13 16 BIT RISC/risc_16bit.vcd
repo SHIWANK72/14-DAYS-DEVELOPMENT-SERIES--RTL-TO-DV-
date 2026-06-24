@@ -1,0 +1,477 @@
+$date
+	Tue Jun 23 18:03:11 2026
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_risc $end
+$var reg 1 ! clk $end
+$var reg 1 " rst_n $end
+
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ rst_n $end
+$var reg 16 % pc [15:0] $end
+$var reg 16 & next_pc [15:0] $end
+$var reg 16 ' instr [15:0] $end
+$var reg 4 ( opcode [3:0] $end
+$var reg 4 ) rd [3:0] $end
+$var reg 4 * rs1 [3:0] $end
+$var reg 4 + rs2 [3:0] $end
+$var reg 8 , imm8 [7:0] $end
+$var reg 16 - imm16 [15:0] $end
+$var reg 1 . reg_we $end
+$var reg 1 / mem_we $end
+$var reg 1 0 mem_re $end
+$var reg 1 1 alu_src_imm $end
+$var reg 1 2 wb_sel_mem $end
+$var reg 1 3 is_jmp $end
+$var reg 1 4 is_beq $end
+$var reg 16 5 rdata1 [15:0] $end
+$var reg 16 6 rdata2 [15:0] $end
+$var reg 16 7 alu_in_b [15:0] $end
+$var reg 16 8 alu_result [15:0] $end
+$var reg 16 9 wb_data [15:0] $end
+$var reg 16 : mem_rdata [15:0] $end
+$var reg 1 ; zero_flag $end
+
+$scope module cu $end
+$var wire 1 < opcode [3] $end
+$var wire 1 = opcode [2] $end
+$var wire 1 > opcode [1] $end
+$var wire 1 ? opcode [0] $end
+$var reg 1 @ reg_we $end
+$var reg 1 A mem_we $end
+$var reg 1 B mem_re $end
+$var reg 1 C alu_src_imm $end
+$var reg 1 D wb_sel_mem $end
+$var reg 1 E is_jmp $end
+$var reg 1 F is_beq $end
+$upscope $end
+
+$scope module rf $end
+$var wire 1 # clk $end
+$var wire 1 $ rst_n $end
+$var wire 1 G we $end
+$var wire 1 H rs1 [3] $end
+$var wire 1 I rs1 [2] $end
+$var wire 1 J rs1 [1] $end
+$var wire 1 K rs1 [0] $end
+$var wire 1 L rs2 [3] $end
+$var wire 1 M rs2 [2] $end
+$var wire 1 N rs2 [1] $end
+$var wire 1 O rs2 [0] $end
+$var wire 1 P rd [3] $end
+$var wire 1 Q rd [2] $end
+$var wire 1 R rd [1] $end
+$var wire 1 S rd [0] $end
+$var wire 1 T wdata [15] $end
+$var wire 1 U wdata [14] $end
+$var wire 1 V wdata [13] $end
+$var wire 1 W wdata [12] $end
+$var wire 1 X wdata [11] $end
+$var wire 1 Y wdata [10] $end
+$var wire 1 Z wdata [9] $end
+$var wire 1 [ wdata [8] $end
+$var wire 1 \ wdata [7] $end
+$var wire 1 ] wdata [6] $end
+$var wire 1 ^ wdata [5] $end
+$var wire 1 _ wdata [4] $end
+$var wire 1 ` wdata [3] $end
+$var wire 1 a wdata [2] $end
+$var wire 1 b wdata [1] $end
+$var wire 1 c wdata [0] $end
+$var reg 16 d rdata1 [15:0] $end
+$var reg 16 e rdata2 [15:0] $end
+$upscope $end
+
+$scope module alu_inst $end
+$var wire 1 f alu_ctrl [3] $end
+$var wire 1 g alu_ctrl [2] $end
+$var wire 1 h alu_ctrl [1] $end
+$var wire 1 i alu_ctrl [0] $end
+$var wire 1 j a [15] $end
+$var wire 1 k a [14] $end
+$var wire 1 l a [13] $end
+$var wire 1 m a [12] $end
+$var wire 1 n a [11] $end
+$var wire 1 o a [10] $end
+$var wire 1 p a [9] $end
+$var wire 1 q a [8] $end
+$var wire 1 r a [7] $end
+$var wire 1 s a [6] $end
+$var wire 1 t a [5] $end
+$var wire 1 u a [4] $end
+$var wire 1 v a [3] $end
+$var wire 1 w a [2] $end
+$var wire 1 x a [1] $end
+$var wire 1 y a [0] $end
+$var wire 1 z b [15] $end
+$var wire 1 { b [14] $end
+$var wire 1 | b [13] $end
+$var wire 1 } b [12] $end
+$var wire 1 ~ b [11] $end
+$var wire 1 !! b [10] $end
+$var wire 1 "! b [9] $end
+$var wire 1 #! b [8] $end
+$var wire 1 $! b [7] $end
+$var wire 1 %! b [6] $end
+$var wire 1 &! b [5] $end
+$var wire 1 '! b [4] $end
+$var wire 1 (! b [3] $end
+$var wire 1 )! b [2] $end
+$var wire 1 *! b [1] $end
+$var wire 1 +! b [0] $end
+$var reg 16 ,! result [15:0] $end
+$var reg 1 -! zero_flag $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+b0 %
+b1 &
+b1001000100001010 '
+b1001 (
+b1 )
+b0 *
+b1010 +
+b1010 ,
+b1010 -
+1.
+0/
+00
+11
+02
+03
+04
+b0 5
+b0 6
+b1010 7
+b1010 8
+b1010 9
+b0 :
+0;
+1@
+0A
+0B
+1C
+0D
+0E
+0F
+b0 d
+b0 e
+b1010 ,!
+0-!
+0#
+0$
+1?
+0>
+0=
+1<
+1G
+0K
+0J
+0I
+0H
+0O
+1N
+0M
+1L
+1S
+0R
+0Q
+0P
+0c
+1b
+0a
+1`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+1i
+0h
+0g
+1f
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0+!
+1*!
+0)!
+1(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+$end
+#5
+1!
+1#
+#10
+0!
+0#
+#15
+1"
+1!
+1$
+1#
+b1 %
+b1001001000010100 '
+b10 )
+b1 *
+b100 +
+b10100 ,
+b10100 -
+0N
+1M
+0L
+1K
+0S
+1R
+b1010 d
+b10100 7
+b1010 5
+1x
+1v
+0*!
+1)!
+0(!
+1'!
+b10100 ,!
+b10 &
+b10100 8
+b10100 9
+0b
+1a
+0`
+1_
+#20
+0!
+0#
+#25
+1!
+1#
+b10 %
+b1100010010 '
+b0 (
+b11 )
+b10 +
+b10010 ,
+b10010 -
+1N
+0M
+1S
+b10100 e
+b10010 7
+b10100 6
+1*!
+0)!
+0?
+0<
+0i
+0f
+0@
+0C
+1@
+b11100 ,!
+b11 &
+b11100 8
+01
+b10100 7
+b11100 9
+1`
+0*!
+1)!
+b11110 ,!
+b11110 8
+b11110 9
+1b
+#30
+0!
+0#
+#35
+1!
+1#
+b11 %
+b1001010000000101 '
+b1001 (
+b100 )
+b0 *
+b101 +
+b101 ,
+b101 -
+1O
+0N
+1M
+0K
+0S
+0R
+1Q
+b0 d
+b0 e
+b0 6
+b0 5
+b0 7
+0)!
+0'!
+0x
+0v
+1?
+1<
+1i
+1f
+0@
+1@
+1C
+b0 ,!
+b100 &
+b0 8
+1-!
+11
+b101 7
+1;
+b0 9
+0b
+0a
+0`
+0_
+1+!
+1)!
+b101 ,!
+b101 8
+0-!
+0;
+b101 9
+1c
+1a
+#40
+0!
+0#
+#45
+1!
+1#
+b100 %
+b110000001000011 '
+b110 (
+b0 )
+b100 *
+b11 +
+b1000011 ,
+b1000011 -
+1N
+0M
+1I
+0Q
+b101 d
+b11110 e
+b1000011 7
+b11110 6
+b101 5
+1y
+1w
+1*!
+0)!
+1%!
+0?
+1>
+1=
+0<
+0i
+1h
+1g
+0f
+0@
+0C
+1A
+b0 ,!
+b101 &
+b0 8
+1-!
+1/
+01
+0.
+b11110 7
+1;
+b0 9
+0G
+0c
+0a
+0+!
+1)!
+1(!
+1'!
+0%!
+#50
+0!
+0#
+#55
+1!
+1#
+b101 %
+b1111000000000000 '
+b1111 (
+b0 *
+b0 +
+b0 ,
+b0 -
+0O
+0N
+0I
+b0 d
+b0 e
+b0 6
+b0 5
+b0 7
+0*!
+0)!
+0(!
+0'!
+0y
+0w
+1?
+1<
+1i
+1f
+0A
+0/
+#60
+0!
+0#

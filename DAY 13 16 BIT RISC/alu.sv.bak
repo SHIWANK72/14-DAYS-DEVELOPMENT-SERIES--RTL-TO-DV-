@@ -1,0 +1,24 @@
+import risc_pkg::*;
+
+module alu (
+    input  opcode_t alu_ctrl,
+    input  logic [15:0] a,
+    input  logic [15:0] b,
+    output logic [15:0] result,
+    output logic zero_flag
+);
+
+    always_comb begin
+        case (alu_ctrl)
+            ADD:  result = a + b;
+            SUB:  result = a - b;
+            AND:  result = a & b;
+            OR:   result = a | b;
+            XOR:  result = a ^ b;
+            LDI:  result = b; // Pass immediate value
+            default: result = 16'h0000;
+        endcase
+    end
+
+    assign zero_flag = (result == 16'h0000);
+endmodule

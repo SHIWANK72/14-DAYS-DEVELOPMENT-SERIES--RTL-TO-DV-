@@ -1,0 +1,16 @@
+package risc_pkg;
+    // 4-bit Opcodes for our 16-bit Processor
+    typedef enum logic [3:0] {
+        ADD  = 4'b0000,
+        SUB  = 4'b0001,
+        AND  = 4'b0010,
+        OR   = 4'b0011,
+        XOR  = 4'b0100,
+        LOAD = 4'b0101,  // Load from Data Memory
+        STOR = 4'b0110,  // Store to Data Memory
+        JMP  = 4'b0111,  // Unconditional Jump
+        BEQ  = 4'b1000,  // Branch if Equal
+        LDI  = 4'b1001,  // Load Immediate
+        HALT = 4'b1111   // Stop Execution
+    } opcode_t;
+endpackage

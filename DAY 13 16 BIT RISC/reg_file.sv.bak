@@ -1,0 +1,29 @@
+import risc_pkg::*;
+
+module reg_file (
+    input  logic clk,
+    input  logic rst_n,
+    input  logic we,           // Write Enable
+    input  logic [3:0] rs1,    // Source Register 1
+    input  logic [3:0] rs2,    // Source Register 2
+    input  logic [3:0] rd,     // Destination Register
+    input  logic [15:0] wdata, // Write Data
+    output logic [15:0] rdata1,
+    output logic [15:0] rdata2
+);
+
+    logic [15:0] registers [0:15];
+
+    // Read Logic (Asynchronous read for single-cycle)
+    assign rdata1 = (rs1 == 0) ? 16'h0000 : registers[rs1];
+    assign rdata2 = (rs2 == 0) ? 16'h0000 : registers[rs2];
+
+    // Write Logic (Synchronous)
+    always_ff @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            for (int i = 0; i < 16; i++) registers[i] <= 16'h0000;
+        end else if (we && rd != 0) begin
+            registers[rd] <= wdata;
+        end
+    end
+endmodule
